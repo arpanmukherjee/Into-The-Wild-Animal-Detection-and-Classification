@@ -12,7 +12,7 @@
 
 ## About
 
-This repo contains codes covering how to do image classification using [PyTorch](https://github.com/pytorch/pytorch), [TorchVision](https://github.com/pytorch/vision) and [TensorBoard](https://github.com/tensorflow/tensorboard) using Python 3.7.
+This repo contains codes covering how to do image detection and classification using [PyTorch](https://github.com/pytorch/pytorch) using Python 3.7.
 
 **If you find any mistakes or disagree with any of the explanations, please do not hesitate to [submit an issue](https://github.com/arpanmukherjee/Into-The-Wild-Animal-Detection-and-Classification/issues/new). I welcome any feedback, be it positive or negative!**
 
@@ -33,16 +33,14 @@ This repo contains codes covering how to do image classification using [PyTorch]
 
 ## Dataset
 
-We used [Caltech Camera Traps(CCT)](https://beerys.github.io/CaltechCameraTraps/) dataset containing 13553 camera trapped animal images in the jungle. Annotation format is the same as the MS COCO dataset.
+We used [Caltech Camera Traps(CCT)](https://beerys.github.io/CaltechCameraTraps/) dataset containing `13553` camera trapped animal images in the jungle as our training dataset. For testing we had `1712` data points from the same dataset. Annotation format is the same as the MS COCO dataset.
 
 <p align="center">
 	<img src="images/ground_truth.jpeg" height='300px'/><br>
-	<code>Fig 1: Class ratio of the Ground Truth</code>
+	<code>Fig 1: Ground Truth Class ratio of Training Data</code>
 </p>
 
 Following are some of the sample images from the dataset, as you can see they are not very clear even for human eye.
-
-
 
 <p align="center">
 	<img src="images/sample_1.jpeg" height='200px'/>
