@@ -33,7 +33,7 @@ This repo contains codes covering how to do image detection and classification u
 
 ## Dataset
 
-We used [Caltech Camera Traps(CCT)](https://beerys.github.io/CaltechCameraTraps/) dataset containing `13553` camera trapped animal images in the jungle as our training dataset. For testing we had `1712` data points from the same dataset. Annotation format is the same as the MS COCO dataset.
+We used [Caltech Camera Traps (CCT)](https://beerys.github.io/CaltechCameraTraps/) dataset containing `13553` camera trapped animal images in the jungle as our training dataset. For testing we had `1712` data points from the same dataset. Annotation format is the same as the MS COCO dataset.
 
 <p align="center">
 	<img src="images/ground_truth.jpeg" height='300px'/><br>
@@ -51,5 +51,10 @@ Following are some of the sample images from the dataset, as you can see they ar
 </p>
 
 ## Training
+
+We have used the [Single Shot MultiBox Detector (SSD)](https://arxiv.org/abs/1512.02325) as our baseline model. As mentioned in the paper, we have used `VGG-16` as our primary backbone architecture for feature extraction.
+
+Our batch size 
+
 
 ## Result
