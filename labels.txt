@@ -1,0 +1,16 @@
+1,1,opossum
+3,2,raccoon
+5,3,squirrel
+6,4,bobcat
+7,5,skunk
+8,6,dog
+9,7,coyote
+10,8,rabbit
+11,9,bird
+16,10,cat
+21,11,badger
+30,12,empty
+33,13,car
+34,14,deer
+51,15,fox
+99,16,rodent
