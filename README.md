@@ -9,6 +9,7 @@
   - [Dataset](#dataset)
   - [Training](#training)
   - [Result](#result)
+  - [Project Members](#project-members)
 
 ## About
 
@@ -106,5 +107,10 @@ Following are some of the sample predicted images from the dataset.
     <img src="images/predict_2.jpeg" height='200px'/>
     <img src="images/predict_3.jpeg" height='200px'/>
     <br>
-	<code>Fig 2: Dataset Sample Predicted Images</code>
+	<code>Fig 3: Dataset Sample Predicted Images</code>
 </p>
+
+## Project Members
+1. Arpan Mukherjee
+2. Vaibhav Varshney
+3. Rohit Arora
