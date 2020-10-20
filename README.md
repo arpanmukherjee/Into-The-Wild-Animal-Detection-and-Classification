@@ -54,7 +54,34 @@ Following are some of the sample images from the dataset, as you can see they ar
 
 We have used the [Single Shot MultiBox Detector (SSD)](https://arxiv.org/abs/1512.02325) as our baseline model. As mentioned in the paper, we have used `VGG-16` as our primary backbone architecture for feature extraction.
 
-Our batch size 
+We experiemented with our batch size as well. We tried out `4`, `8` and `16` and recieved the following `mAP`.
+
+We have used batch normalization by using PyTorch’s in-built function.
+
+We trained our model for `50,000` iterations(not epochs).
 
 
 ## Result
+
+<table style="padding:10px">
+    <tr>
+        <td style="text-align: center"> Training Data </td>
+        <td style="text-align: center"> Validation Data </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="images/training_mAP.jpeg" height='250px'/>
+        </td>
+        <td>
+            <img src="images/testing_mAP.jpeg" height='250px'/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="images/training_predict.jpeg" height='250px'/>
+        </td>
+        <td>
+            <img src="images/testing_predict.jpeg" height='250px'/>
+        </td>
+    </tr>
+</table>
