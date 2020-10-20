@@ -60,8 +60,22 @@ We have used batch normalization by using PyTorch’s in-built function.
 
 We trained our model for `50,000` iterations(not epochs).
 
-
 ## Result
+
+<p align="center">
+	<img src="images/loss.jpeg" height='300px'/><br>
+	<code>Fig 3: Variation of Training Loss with iterations</code>
+</p>
+
+Following table shows how `mAP` value variates with the changes of epochs.
+
+| Batch Size | mAP    |
+|------------|--------|
+| 4          | 63.79% |
+| 8          | 63.96% |
+| 16         | 65.64% |
+
+Following are the resultant plots for our training and validation data.
 
 <table style="padding:10px">
     <tr>
@@ -70,18 +84,27 @@ We trained our model for `50,000` iterations(not epochs).
     </tr>
     <tr>
         <td>
-            <img src="images/training_mAP.jpeg" height='250px'/>
+            <img src="images/training_mAP.jpeg"/>
         </td>
         <td>
-            <img src="images/testing_mAP.jpeg" height='250px'/>
+            <img src="images/testing_mAP.jpeg"/>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="images/training_predict.jpeg" height='250px'/>
+            <img src="images/training_predict.jpeg"/>
         </td>
         <td>
-            <img src="images/testing_predict.jpeg" height='250px'/>
+            <img src="images/testing_predict.jpeg"/>
         </td>
     </tr>
 </table>
+
+Following are some of the sample predicted images from the dataset.
+<p align="center">
+	<img src="images/predict_1.jpeg" height='200px'/>
+    <img src="images/predict_2.jpeg" height='200px'/>
+    <img src="images/predict_3.jpeg" height='200px'/>
+    <br>
+	<code>Fig 2: Dataset Sample Predicted Images</code>
+</p>
