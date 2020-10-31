@@ -24,15 +24,6 @@ if torch.cuda.is_available():
 
 from ssd import build_ssd
 
-
-# In[5]:
-
-
-# !nvidia-smi
-# import cv2
-# os.path.curdir
-
-
 # In[8]:
 
 
