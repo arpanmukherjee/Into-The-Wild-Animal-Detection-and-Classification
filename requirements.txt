@@ -1,0 +1,5 @@
+torch
+numpy
+pickle
+torchvision
+matplotlib
