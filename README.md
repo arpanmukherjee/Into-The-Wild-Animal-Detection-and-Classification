@@ -107,7 +107,7 @@ Following are some of the sample predicted images from the dataset.
     <img src="images/predict_2.jpeg" height='200px'/>
     <img src="images/predict_3.jpeg" height='200px'/>
     <br>
-	<code>Fig : Dataset Sample Predicted Images</code>
+	<code>Fig 4: Dataset Sample Predicted Images</code>
 </p>
 
 ## Project Members
